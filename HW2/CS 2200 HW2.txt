@@ -1,0 +1,34 @@
+﻿HW #2 1.14a
+
+
+Suppose for language B, there is a DFA M
+
+
+Then Let M’ be the DFA swapping accept and non-accept states with M.
+
+
+If M’ accepts a string S, then if it runs the string it will accept it.
+
+
+However, because M and M’ are swapped, if x is run on M it won’t accept.
+
+
+Thus if x is accepted by M’, it won’t be accepted by M.
+
+
+Likewise if there’s a different string y accepted by M, it won’t be by M’.
+
+
+So if x is in B, then x is not it B’
+
+
+So M’ accepts the unaccepted strings of M
+
+
+Therefore, M’ recognizes the languages complimenting B
+
+
+Since M recognizes a regular language B, there is a DFA M’ that recognizes the compliment language of B that’s also regular.
+
+
+Thus, the language classes are closed under complement.
